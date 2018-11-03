@@ -1,6 +1,5 @@
-package learning;
+package staticLesson;
 
 public class Dog {
-	
-	
+
 }
