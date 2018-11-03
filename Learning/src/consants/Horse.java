@@ -1,7 +1,7 @@
-package learning;
+package consants;
 
 public class Horse {
-	
+
 	private int sum;
 	private final int NUMBER;
 	
@@ -23,5 +23,4 @@ public class Horse {
 		return String.format("sum = %d\n", sum);
 		
 	}
-	
 }
