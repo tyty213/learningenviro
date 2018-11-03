@@ -14,4 +14,17 @@ public class Horse {
 		System.out.printf("Constructor for %s %s, members in the club %d\n", firstName, lastName, noOfMembers);
 		
 	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public static int getNoOfMembers() {
+		return noOfMembers;
+	}
+	
 }
