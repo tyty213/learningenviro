@@ -48,9 +48,9 @@ public class Horse extends JFrame{
 			
 			String string = "";
 			
-			if(event.getSource() == item1) 		string = String.format("field 1 : %s", event.getActionCommand());
-			else if(event.getSource() == item2) string = String.format("field 2 : %s", event.getActionCommand());
-			else if(event.getSource() == item3) string = String.format("field 3 : %s", event.getActionCommand());
+			if(event.getSource() == item1) 				string = String.format("field 1 : %s", event.getActionCommand());
+			else if(event.getSource() == item2)			string = String.format("field 2 : %s", event.getActionCommand());
+			else if(event.getSource() == item3) 		string = String.format("field 3 : %s", event.getActionCommand());
 			else if(event.getSource() == passwordField) string = String.format("password field if %s", event.getActionCommand());
 			
 			JOptionPane.showMessageDialog(null, string);
