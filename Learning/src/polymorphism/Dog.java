@@ -2,9 +2,9 @@ package polymorphism;
 
 public class Dog extends Animal{
 
-	void eat() {
+	protected void eat() {
 		
-		System.out.println("The Dog is eating");
+		System.out.println("The Dog is tasty");
 		
 	}
 	

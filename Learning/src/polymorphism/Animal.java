@@ -2,9 +2,9 @@ package polymorphism;
 
 public class Animal {
 
-	void eat() {
+	protected void eat() {
 		
-		System.out.println("The animal is eating");
+		System.out.println("The animal is tasty");
 		
 	}
 	
