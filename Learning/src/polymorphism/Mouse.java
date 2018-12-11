@@ -5,13 +5,9 @@ public class Mouse {
 	public static void main(String[] args) {
 		
 		Hunter tylor = new Hunter();
-		Animal animalObj = new Animal();
 		Animal dogObj = new Dog();
+		Animal horseObj = new Horse();
 		Animal cowObj = new Cow();
-		
-		tylor.digest(animalObj);
-		tylor.digest(dogObj);
-		tylor.digest(cowObj);
 		
 		System.out.println();
 		
@@ -21,8 +17,12 @@ public class Mouse {
 		eat[2] = new Cow();
 		
 		for(Animal a : eat) {
-			
+				
 			a.eat();
 		}
+		
+		tylor.digest(dogObj);
+		tylor.digest(horseObj);
+		tylor.digest(cowObj);
 	}
 }
