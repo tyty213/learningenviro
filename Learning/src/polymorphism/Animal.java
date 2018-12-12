@@ -8,6 +8,6 @@ public abstract class Animal {
 //														class has their own. so now we make it abstract
 //	}													to force child classes to have it
 	
-	
 	public abstract void eat();
+	
 }
